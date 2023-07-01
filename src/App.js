@@ -3,6 +3,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import React, { Suspense } from "react";
+import Loading from "./Components/Loading";
 
 const About = React.lazy(() => import("./Components/About"));
 const Contact = React.lazy(() => import("./Components/Contact"));
@@ -16,7 +17,7 @@ const Skills = React.lazy(() => import("./Components/Skills"));
 function App() {
   return (
     <BrowserRouter>
-      <Suspense fallback={<div>loading...</div>}>
+      <Suspense fallback={<Loading />}>
         <Header />
         <Introduce />
         <About />

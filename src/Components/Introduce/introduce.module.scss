@@ -171,14 +171,15 @@
           gap: 20px;
           justify-content: space-between;
           .circle {
-            width: 300px;
-            height: 300px;
+            flex: 1;
             display: flex;
             justify-content: center;
             align-items: center;
-
+            height: 300px;
+            max-width: 300px;
             img {
-              width: 300px;
+              object-fit: contain;
+              width: 100%;
               height: 300px;
             }
           }

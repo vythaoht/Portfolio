@@ -42,5 +42,14 @@
     width: 90%;
     top: 40%;
     transform: translateX(-50%);
+    .content {
+      .buttonStyle {
+        .itemStyle {
+          a {
+            color: #ec6295;
+          }
+        }
+      }
+    }
   }
 }
