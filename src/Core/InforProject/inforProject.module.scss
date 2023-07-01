@@ -1,0 +1,37 @@
+.container {
+  background-color: #fff;
+  border: 3px solid #96a5d6;
+  border-radius: 20px;
+  padding: 20px;
+  width: 40%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  .content {
+    h3 {
+      color: #ec6295;
+      font-weight: bold;
+    }
+    h4 {
+      color: #96a5d6;
+    }
+    ul {
+      list-style: inside;
+      color: #ec6295;
+    }
+
+    .buttonStyle {
+      margin-top: 10px;
+      button:first-of-type {
+        background-color: #f5c7d8;
+      }
+      .itemStyle {
+        padding: 8px;
+        border-radius: 10px;
+        margin-right: 10px;
+        border: none;
+        background-color: #efebfc;
+      }
+    }
+  }
+}

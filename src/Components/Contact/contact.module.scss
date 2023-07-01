@@ -1,0 +1,53 @@
+.container {
+  position: relative;
+  min-height: 80vh;
+  background-color: #efebfc;
+  .backdrop {
+    position: absolute;
+    bottom: 0;
+    height: 250px;
+    width: 100%;
+    background-color: #cdb4db;
+    border-radius: 100% 0 0 0;
+  }
+  .content {
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    p {
+      font-size: 18px;
+      letter-spacing: 2px;
+      text-align: center;
+
+      i {
+        margin-left: 10px;
+        color: #ec6295;
+      }
+    }
+
+    .connect {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 40%;
+      margin: auto;
+      margin-top: 20px;
+
+      input {
+        padding: 15px;
+        border-radius: 10px;
+        border: 2px solid #ec6295;
+      }
+      button {
+        width: 40%;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        background-color: #ec6295;
+        color: #fff;
+      }
+    }
+  }
+}

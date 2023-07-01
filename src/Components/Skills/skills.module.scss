@@ -1,0 +1,66 @@
+.container {
+  position: relative;
+  background-color: #efebfc;
+  .content {
+    .listSkill {
+      animation: skills;
+      animation-duration: 3s;
+      transform: scale(1);
+      .perSkill {
+        display: flex;
+        align-items: center;
+        background-color: #efebfc;
+        padding: 20px;
+        border-radius: 50px;
+        border: 2px solid #ec6295;
+        margin: 20px;
+        transition: all 0.3s;
+        .unitSkill {
+          font-size: 20px;
+          font-weight: bold;
+          color: #ec6295;
+          margin-right: 15px;
+        }
+        .itemSkill {
+          background-color: #fff;
+          padding: 5px;
+          border-radius: 20px;
+          border: 2px solid #ec6295;
+          width: 120px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 15px;
+          color: #96a5d6;
+          font-weight: bold;
+          img {
+            height: 30px;
+          }
+        }
+
+        &:hover {
+          cursor: pointer;
+          background-color: #fff;
+          transform: scale(1.1);
+          .itemSkill {
+            background-color: #efebfc;
+            color: #ec6295;
+          }
+          .unitSkill {
+            color: #96a5d6;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes skills {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}

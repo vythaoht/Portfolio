@@ -1,0 +1,14 @@
+.container {
+  border: 2px dashed #ec6295;
+  border-radius: 8px;
+  width: 25%;
+  .details {
+    padding: 20px;
+    h3 {
+      color: #ec6295;
+    }
+    h4 {
+      color: #96a5d6;
+    }
+  }
+}
