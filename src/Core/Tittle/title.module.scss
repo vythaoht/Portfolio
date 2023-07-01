@@ -1,4 +1,4 @@
-h1 {
+.title {
   font-size: 50px;
   text-align: center;
   color: #96a5d6;
@@ -6,5 +6,11 @@ h1 {
   padding: 10px;
   span {
     color: #ec6295;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 30px;
   }
 }

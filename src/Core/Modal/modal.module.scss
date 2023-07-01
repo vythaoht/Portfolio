@@ -10,3 +10,16 @@
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 400px) {
+  .container {
+    .content {
+      width: 100%;
+      padding: 0 10px;
+      iframe {
+        width: 100% !important;
+        height: 350px;
+      }
+    }
+  }
+}

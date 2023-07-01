@@ -56,6 +56,26 @@
   }
 }
 
+@media screen and (max-width: 400px) {
+  .container {
+    .content {
+      .listSkill {
+        .perSkill {
+          flex-wrap: wrap;
+          justify-content: center;
+          row-gap: 10px;
+          .unitSkill {
+            width: 100%;
+            text-align: center;
+          }
+          .itemSkill {
+          }
+        }
+      }
+    }
+  }
+}
+
 @keyframes skills {
   from {
     transform: scale(0.5);

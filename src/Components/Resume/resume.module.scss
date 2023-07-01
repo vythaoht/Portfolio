@@ -56,6 +56,28 @@
   }
 }
 
+@media screen and (max-width: 400px) {
+  .container {
+    .content {
+      .coverDetails {
+        .experience,
+        .education {
+          display: none;
+        }
+        .details {
+          flex-direction: column;
+          gap: 20px;
+          padding: 0 20px;
+          margin: 10px 0;
+          .itemCard {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
 @keyframes card1 {
   from {
     transform: translateY(150px);

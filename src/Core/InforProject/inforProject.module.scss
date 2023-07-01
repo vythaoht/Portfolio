@@ -35,3 +35,12 @@
     }
   }
 }
+
+@media screen and (max-width: 400px) {
+  .container {
+    left: 50%;
+    width: 90%;
+    top: 40%;
+    transform: translateX(-50%);
+  }
+}

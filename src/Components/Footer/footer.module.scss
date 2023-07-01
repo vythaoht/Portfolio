@@ -7,9 +7,6 @@
     background-color: #fff;
   }
   .content {
-    // display: flex;
-    // align-items: center;
-    // justify-content: space-between;
     p {
       font-size: 18px;
       color: #ec6295;
@@ -27,6 +24,22 @@
         color: #ec6295;
         font-weight: bold;
         cursor: pointer;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    height: 80px;
+    .content {
+      p {
+        font-size: 14px;
+      }
+      .iconStyle {
+        i {
+          right: 12px;
+        }
       }
     }
   }

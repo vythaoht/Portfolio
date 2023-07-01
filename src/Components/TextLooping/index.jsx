@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import styles from "./textLooping.module.scss";
 
 const mappingArray = (title) => {
   const splitTitle = title.split("");
@@ -26,6 +27,7 @@ const TextLooping = ({ title, ms = 200 }) => {
   }, [desc, index]);
   return (
     <h1
+      className={styles.textLooping}
       style={{
         height: 56,
         textAlign: "left",
