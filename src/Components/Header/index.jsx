@@ -26,7 +26,7 @@ function Header() {
     >
       <div className={styles.content}>
         <div className={styles.left}>
-          <Link to="#">
+          <Link to="#" onClick={() => window.scrollTo(0, 0)}>
             <i className="fa fa-candy-cane"></i>
           </Link>
         </div>
