@@ -20,10 +20,9 @@ function Introduce() {
             <h2>Welcome!</h2>
             <TextLooping title="I'm Ho Thi Thao Vy" ms={300} />
             <p>
-              I'm passionate about learning new technologies and always keep
-              concentrated on improving my self skills. Being patient and
-              responsible for working help me implement completely assigned
-              tasks.
+              I'm passionate about teaching job and always keep concentrated on
+              improving my self skills. I feel complete when I work with and
+              talk about what I love to little angles.
             </p>
             <button>
               <a

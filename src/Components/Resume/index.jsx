@@ -20,25 +20,21 @@ function Resume() {
             <div className={cls(styles.details, styles.card1)}>
               <Card
                 className={styles.itemCard}
-                topic="Cybersoft - Cyberlearn Programing Education Center"
-                date="November 2022 - June 2023"
+                topic="Eijiko Kindergarten"
+                date="October 2019 - July 2020"
                 content={
                   <ul>
-                    <li>Internship</li>
+                    <li>Teaching toddlers grade</li>
                   </ul>
                 }
               />
               <Card
                 className={styles.itemCard}
-                topic="Cybersoft - Cyberlearn Programing Education Center"
-                date="November 2022 - June 2023"
+                topic="Sai Gon University"
+                date="September 2016 - September 2020"
                 content={
                   <ul>
-                    <li>
-                      Front-end Foundation course: Basic knowledge of HTML5,
-                      CSS3, Bootstrap 4, SASS/SCSS, Javascript (ES5/ES6),
-                      Jquery, AJAX, Git, ...
-                    </li>
+                    <li>Education</li>
                     <li>Grade: Good</li>
                   </ul>
                 }
@@ -47,23 +43,18 @@ function Resume() {
             <div className={cls(styles.details, styles.card2)}>
               <Card
                 className={styles.itemCard}
-                topic="Personal Projects"
-                date="June 2023 - Present"
+                topic="Maple Bear Kindergarten"
+                date="November 2020 - July 2022"
                 content={
                   <ul>
-                    <li>
-                      Learning and practicing with many Front-end projects
-                    </li>
-                    <li>
-                      Working on my own projects with learned Front-end skills
-                    </li>
+                    <li>Teaching junior grade</li>
                   </ul>
                 }
               />
               <Card
                 className={styles.itemCard}
-                topic="Sai Gon University"
-                date="September 2016 - September 2020"
+                topic="HCMC University of Education"
+                date="November 2021 - September 2023"
                 content={
                   <ul>
                     <li>Education</li>

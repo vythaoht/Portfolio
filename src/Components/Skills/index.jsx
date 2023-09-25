@@ -31,38 +31,16 @@ function Skills() {
           <div className="col-12">
             <ul className={isMounted ? styles.listSkill : ""}>
               <li className={styles.perSkill} onMouseEnter={() => onHover(1)}>
-                <span className={styles.unitSkill}>HTML/CSS</span>
+                <span className={styles.unitSkill}>Soft Skill</span>
                 <AnimateGroup play={animationSlide.slide1}>
                   <Animate
                     start={{ opacity: 0 }}
                     end={{ opacity: 1 }}
-                    sequenceIndex={0}
+                    sequenceIndex={3}
                     duration={0.2}
                   >
-                    <span className={styles.itemSkill}>
-                      <img src="/image/html5.svg" alt="#" />
-                    </span>
-                  </Animate>
-
-                  <Animate
-                    start={{ opacity: 0 }}
-                    end={{ opacity: 1 }}
-                    sequenceIndex={1}
-                    duration={0.2}
-                  >
-                    <span className={styles.itemSkill}>
-                      <img src="/image/css-3.svg" alt="#" />
-                    </span>
-                  </Animate>
-
-                  <Animate
-                    start={{ opacity: 0 }}
-                    end={{ opacity: 1 }}
-                    sequenceIndex={2}
-                    duration={0.2}
-                  >
-                    <span className={styles.itemSkill}>
-                      <img src="/image/sass-1.svg" alt="#" />
+                    <span className={styles.itemSkill1}>
+                      Communication ability
                     </span>
                   </Animate>
 
@@ -72,45 +50,23 @@ function Skills() {
                     sequenceIndex={3}
                     duration={0.2}
                   >
-                    <span className={styles.itemSkill}>
-                      <img src="/image/materialize.svg" alt="#" />
-                    </span>
+                    <span className={styles.itemSkill}>Team work </span>
                   </Animate>
 
                   <Animate
                     start={{ opacity: 0 }}
                     end={{ opacity: 1 }}
-                    sequenceIndex={4}
+                    sequenceIndex={3}
                     duration={0.2}
                   >
-                    <span className={styles.itemSkill}>
-                      <img src="/image/bootstrap-4.svg" alt="#" />
-                    </span>
-                  </Animate>
-
-                  <Animate
-                    start={{ opacity: 0 }}
-                    end={{ opacity: 1 }}
-                    sequenceIndex={5}
-                    duration={0.2}
-                  >
-                    <span className={styles.itemSkill}>Responsive</span>
+                    <span className={styles.itemSkill}>Self Study </span>
                   </Animate>
                 </AnimateGroup>
               </li>
 
               <li className={styles.perSkill} onMouseEnter={() => onHover(2)}>
-                <span className={styles.unitSkill}>Javascript</span>
+                <span className={styles.unitSkill}>MS Office</span>
                 <AnimateGroup play={animationSlide.slide2}>
-                  <Animate
-                    start={{ opacity: 0 }}
-                    end={{ opacity: 1 }}
-                    sequenceIndex={0}
-                    duration={0.2}
-                  >
-                    <span className={styles.itemSkill}>ES5/ES6</span>
-                  </Animate>
-
                   <Animate
                     start={{ opacity: 0 }}
                     end={{ opacity: 1 }}
@@ -118,54 +74,8 @@ function Skills() {
                     duration={0.2}
                   >
                     <span className={styles.itemSkill}>
-                      <img
-                        src="/image/jquery-1.svg"
-                        alt="#"
-                        width="75px"
-                        height="75px"
-                      />
+                      <img src="/image/word.png" alt="#" />
                     </span>
-                  </Animate>
-
-                  <Animate
-                    start={{ opacity: 0 }}
-                    end={{ opacity: 1 }}
-                    sequenceIndex={2}
-                    duration={0.2}
-                  >
-                    <span className={styles.itemSkill}>AJAX</span>
-                  </Animate>
-
-                  <Animate
-                    start={{ opacity: 0 }}
-                    end={{ opacity: 1 }}
-                    sequenceIndex={3}
-                    duration={0.2}
-                  >
-                    <span className={styles.itemSkill}>RESTful API</span>
-                  </Animate>
-
-                  <Animate
-                    start={{ opacity: 0 }}
-                    end={{ opacity: 1 }}
-                    sequenceIndex={4}
-                    duration={0.2}
-                  >
-                    <span className={styles.itemSkill}>AXIOS</span>
-                  </Animate>
-                </AnimateGroup>
-              </li>
-
-              <li className={styles.perSkill} onMouseEnter={() => onHover(3)}>
-                <span className={styles.unitSkill}>React</span>
-                <AnimateGroup play={animationSlide.slide3}>
-                  <Animate
-                    start={{ opacity: 0 }}
-                    end={{ opacity: 1 }}
-                    sequenceIndex={0}
-                    duration={0.5}
-                  >
-                    <span className={styles.itemSkill}>Router</span>
                   </Animate>
 
                   <Animate
@@ -174,31 +84,20 @@ function Skills() {
                     sequenceIndex={1}
                     duration={0.5}
                   >
-                    <span className={styles.itemSkill}>Redux</span>
+                    <span className={styles.itemSkill}>
+                      <img src="/image/excel.png" alt="#" />
+                    </span>
                   </Animate>
 
                   <Animate
                     start={{ opacity: 0 }}
                     end={{ opacity: 1 }}
-                    sequenceIndex={2}
+                    sequenceIndex={1}
                     duration={0.5}
                   >
-                    <span className={styles.itemSkill}>React Hooks</span>
-                  </Animate>
-                </AnimateGroup>
-              </li>
-
-              <li className={styles.perSkill} onMouseEnter={() => onHover(4)}>
-                <span className={styles.unitSkill}>Git</span>
-
-                <AnimateGroup play={animationSlide.slide4}>
-                  <Animate
-                    start={{ opacity: 0 }}
-                    end={{ opacity: 1 }}
-                    sequenceIndex={0}
-                    duration={0.5}
-                  >
-                    <span className={styles.itemSkill}>Git Flow</span>
+                    <span className={styles.itemSkill}>
+                      <img src="/image/pwp.png" alt="#" />
+                    </span>
                   </Animate>
                 </AnimateGroup>
               </li>
@@ -213,73 +112,19 @@ function Skills() {
                     sequenceIndex={0}
                     duration={0.5}
                   >
-                    <span className={styles.itemSkill}>OOP</span>
-                  </Animate>
-
-                  <Animate
-                    start={{ opacity: 0 }}
-                    end={{ opacity: 1 }}
-                    sequenceIndex={1}
-                    duration={0.5}
-                  >
-                    <span className={styles.itemSkill}>Algorithms</span>
-                  </Animate>
-                </AnimateGroup>
-              </li>
-
-              <li className={styles.perSkill} onMouseEnter={() => onHover(6)}>
-                <span className={styles.unitSkill}>Soft Skill</span>
-
-                <AnimateGroup play={animationSlide.slide6}>
-                  <Animate
-                    start={{ opacity: 0 }}
-                    end={{ opacity: 1 }}
-                    sequenceIndex={0}
-                    duration={0.5}
-                  >
-                    <span className={styles.itemSkill}>Teamwork</span>
-                  </Animate>
-
-                  <Animate
-                    start={{ opacity: 0 }}
-                    end={{ opacity: 1 }}
-                    sequenceIndex={1}
-                    duration={0.5}
-                  >
-                    <span className={styles.itemSkill}>Self Study</span>
-                  </Animate>
-                </AnimateGroup>
-              </li>
-
-              <li className={styles.perSkill} onMouseEnter={() => onHover(7)}>
-                <span className={styles.unitSkill}>Language</span>
-
-                <AnimateGroup play={animationSlide.slide7}>
-                  <Animate
-                    start={{ opacity: 0 }}
-                    end={{ opacity: 1 }}
-                    sequenceIndex={0}
-                    duration={0.5}
-                  >
-                    <span
-                      className={styles.itemSkill}
-                      style={{ width: "250px" }}
-                    >
-                      Communicating (Intermediate)
+                    <span className={styles.itemSkill2}>
+                      Informatics certificate level A
                     </span>
                   </Animate>
 
                   <Animate
                     start={{ opacity: 0 }}
                     end={{ opacity: 1 }}
-                    sequenceIndex={2}
+                    sequenceIndex={1}
                     duration={0.5}
                   >
-                    <span
-                      className={styles.itemSkill}
-                      style={{ width: "200px" }}
-                    >
-                      Reading documents
+                    <span className={styles.itemSkill2}>
+                      English certificate level B
                     </span>
                   </Animate>
                 </AnimateGroup>
